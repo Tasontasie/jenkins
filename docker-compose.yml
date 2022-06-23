@@ -1,18 +1,11 @@
-<settings>
-  .
-  .
-  <proxies>
-   <proxy>
-      <id>tason-snapshot</id>
-      <active>true</active>
-      <protocol>http</protocol>
-      <host>http://34.221.72.69:8081/repository/tason-snapshot/</host>
-      <port>8081</port>
-      <username>admin</username>
-      <password>admin123</password>
-      <nonProxyHosts>http://34.221.72.69:8081/repository/tason-snapshot/</nonProxyHosts>
-    </proxy>
-  </proxies>
-  .
-  .
-</settings>
+version: '3.1'
+services:
+  springboot:
+    image: mylandmarktech/maven-web-app:VERSION
+    restart: always
+    ports:
+    - 9090:8080
+    networks:
+    - mavenappbridge
+networks:
+  mavenappbridge:
