@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://34.221.72.69:8081/repository/tason-release/</url>
+	      <url>http://34.211.113.113:8081/repository/tason-realease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.221.72.69:8081/repository/tason-snapshot/</url> 
+	      <url>http://34.211.113.113:8081/repository/tason-snapshot/</url> 
 	    </snapshotRepository>
 	    
 	</distributionManagement>
